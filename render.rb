@@ -20,7 +20,7 @@ def get_latest_release()
 
   # Parse the URL and add the utm parameter
   uri = URI.parse(url)
-  new_query_ar = URI.decode_www_form(uri.query || '') << ["utm_source", "SCOOP"]
+  new_query_ar = URI.decode_www_form(uri.query || '')
   uri.query = URI.encode_www_form(new_query_ar)
   url_with_utm = uri.to_s
 
