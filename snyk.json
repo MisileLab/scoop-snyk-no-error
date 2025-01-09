@@ -1,10 +1,10 @@
 {
     "version": "1.1295.0",
-    "url": "https://downloads.snyk.io/cli/v1.1295.0/snyk-win.exe?utm_source=SCOOP#/snyk-win.exe",
+    "url": "https://downloads.snyk.io/cli/v1.1295.0/snyk-win.exe",
     "bin": [
         [
-          "snyk-win.exe",
-          "snyk"
+            "snyk-win.exe",
+            "snyk"
         ]
     ],
     "hash": "6adf6f3d7bd248b8aeadccaf40dc5850169f141be258838d0a5d4f17a05cc4a0",
